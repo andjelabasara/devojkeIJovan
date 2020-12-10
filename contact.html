@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jovan & girls | Contact</title>
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h1><span class="primary-text">Girls</span>& Jovan</h1>
+          </div>
+          <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+            <nav id="navbar">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SUBHEADER -->
+    <section id="subheader">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>Contact</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN PAGE -->
+    <section id="page" class="contact">
+      <div class="container">
+        <div class="row center-xs center-sm center-md center-lg">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2><span class="primary-text" style="color: #ff1b6b;">Prijavi </span>se</h2>
+            <p>Kontaktiraj nas putem email-a i prijavi se da ideš sa nama na neku od egzotičnih lokacija</p>
+            <div id="error"></div>
+            <form id="form">
+              <div>
+                <label for="name">IME</label><br>
+                <input id = "name" type="text" name="name" required>
+              </div>
+              <div>
+                <label for="name">PREZIME</label><br>
+                <input id = "name" type="text" name="name" required>
+              </div>
+              <div>
+                <label for="name">SAPUTNICI</label><br>
+                <input id = "name" type="text" name="name" required>
+              </div>
+              <div>
+                <label for="email">EMAIL</label><br>
+                <input id = "email" type="text" name="email" required>
+              </div>
+              <div>
+                <label for="message">KOMENTAR</label><br>
+                <textarea id="poruka" name="message"></textarea>
+              </div>
+              <button type="submit" name="button">Prijavi se</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPANY -->
+    <section id="company">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h4>Vlasnik 1</h4>
+            <img src="./images/1.jpeg" alt="" style="height: 500px;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h4>Vlasnik 2</h4>
+            <img src="./images/3.jpeg" alt="" style="height: 500px;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h4>Vlasnik 3</h4>
+            <img src="./images/2.jpeg" alt="" style="height: 500px;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <form>
+              <input type="text" name="email" placeholder="Enter Email" required>
+              <button type="submit" name="button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer">
+      <div class="container">
+        <div class="row center-xs center-sm center-md center-lg">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p>Copyright &copy; Nina, Andjela & Jovan</p>
+            <p id = "godina"></p> 
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>
